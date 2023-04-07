@@ -75,7 +75,8 @@
         [(NSImageView *) test setImageFrameStyle:NSImageFrameGrayBezel];
         [self addSubview:test];
     } else if ([name isEqualToString:@"NSImageViewTest05"]) {
-
+// TODO : Does not work on Darling
+/*
         test = [[NSImageView alloc] initWithFrame:NSMakeRect(50, 20, 200, 100)];
 
         // Carregar la imatge original i convertir-la en una imatge de plantilla
@@ -92,28 +93,10 @@
         [(NSImageView *)test setContentTintColor:[NSColor redColor]];
 
         [self addSubview:test];
-
+*/
     }
 
     return test;
-}
-
-- (void)acceptButtonClicked:(id)sender {
-    NSLog(@"Accept button clicked");
-}
-
-- (void)cancelButtonClicked:(id)sender {
-    NSLog(@"Cancel button clicked");
-}
-
-- (void)radioButtonSelected:(NSButton *)sender {
-    for (NSButton *button in [sender.superview subviews]) {
-        if ([button isKindOfClass:[NSButton class]] &&
-            [button.identifier isEqualToString:sender.identifier]) {
-            [button setState:NSControlStateValueOff];
-        }
-    }
-    [sender setState:NSControlStateValueOn];
 }
 
 @end

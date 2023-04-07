@@ -20,10 +20,14 @@
         [self setDividerStyle:NSSplitViewDividerStyleThin];
 
         _sidebarView = [[ViewSplitSidebar alloc] initWithFrame:NSMakeRect(0, 0, sideWidth, CGRectGetHeight(self.frame)) appDelegate:appDelegate];
-        [self addArrangedSubview:_sidebarView];
+        [self addSubview:_sidebarView];
+        // TDODO : addArrangedSubview does not work on Darling
+        // [self addArrangedSubview:_sidebarView];
 
         _contentsView = [[ViewSplitContents alloc] initWithFrame:NSMakeRect(0, 0, CGRectGetWidth(self.frame) - sideWidth, CGRectGetHeight(self.frame))];
-        [self addArrangedSubview:_contentsView];
+        [self addSubview:_contentsView];
+        // TDODO : addArrangedSubview does not work on Darling
+        // [self addArrangedSubview:_contentsView];
     }
     return self;
 }

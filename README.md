@@ -15,5 +15,14 @@ darling shell
 ./TestSuite.app/TestSuite
 ```
 
+To complie it on OSX:
+```
+./compile.sh
+./TestSuite.app/TestSuite
+```
+
 OSX Screenshot:
-![OSX Screen](./ScreenOSX.png "Optional title")
+![OSX Screen](./ScreenOSX.png "OSX Screen")
+
+Darling Screenshot (April 2023):
+![Darling Screen](./ScreenDarling.png "Darling Screen")

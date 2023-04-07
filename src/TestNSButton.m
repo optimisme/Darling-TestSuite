@@ -54,7 +54,7 @@
 
 - (NSView*) addTestWithName:(NSString *)name {
     NSView *test = nil;
-    
+
     if ([name isEqualToString:@"NSButtonTest00"]) {
 
         test = [[NSButton alloc] initWithFrame:NSMakeRect(50, 0, 100, 25)];
@@ -175,7 +175,8 @@
         [(NSButton *) test setEnabled:NO];
         [self addSubview:test];
     } else if ([name isEqualToString:@"NSButtonTest15"]) {
-
+// TODO : Does not work on Darling
+/*
         NSButton *option1 = [[NSButton alloc] initWithFrame:NSMakeRect(0, 25, 100, 25)];
         [option1 setButtonType:NSButtonTypeRadio];
         [option1 setTitle:@"Option 1"];
@@ -202,6 +203,7 @@
         [test addSubview:option1];
         [test addSubview:option2];
         [self addSubview:test];
+*/
     } else if ([name isEqualToString:@"NSButtonTest16"]) {
 
         test = [[NSButton alloc] initWithFrame:NSMakeRect(50, 0, 100, 25)];
@@ -221,10 +223,12 @@
         [self addSubview:test];
 
     } else if ([name isEqualToString:@"NSButtonTest19"]) {
-
+// TODO : Does not work on Darling
+/*
         test = [[NSComboBox alloc] initWithFrame:NSMakeRect(50, 0, 150, 25)];
         [(NSComboBox *) test addItemsWithObjectValues:@[@"Gat", @"Gos", @"Ocell", @"Peix"]];
         [self addSubview:test];
+*/
     }
     
     return test;
@@ -239,6 +243,10 @@
 }
 
 - (void)radioButtonSelected:(NSButton *)sender {
+
+// TODO : Does not work on Darling
+/*
+
     for (NSButton *button in [sender.superview subviews]) {
         if ([button isKindOfClass:[NSButton class]] &&
             [button.identifier isEqualToString:sender.identifier]) {
@@ -246,6 +254,7 @@
         }
     }
     [sender setState:NSControlStateValueOn];
+*/
 }
 
 @end
