@@ -2,6 +2,10 @@
 
 Darling-TestSuite is an application to check the functionality of some AppKit components in Darling HQ.
 
+The left column is rendered using the application's graphics engine, the right column shows a screenshot taken by OSX itself.
+
+## How to run
+
 Install Darling HQ as usual: [Build Instructions](https://docs.darlinghq.org/build-instructions.html)
 
 
@@ -20,6 +24,8 @@ To complie it on OSX:
 ./compile.sh
 ./TestSuite.app/TestSuite
 ```
+
+## Screenshots
 
 OSX Screenshot:
 ![OSX Screen](./ScreenOSX.png "OSX Screen")
