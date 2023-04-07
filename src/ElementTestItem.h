@@ -1,7 +1,7 @@
 #import <Foundation/Foundation.h>
 #import <AppKit/AppKit.h>
 
-#define kSaveImages YES
+#define kSaveImages NO
 
 @interface ElementTestItem : NSView
 

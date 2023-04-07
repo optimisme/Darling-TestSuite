@@ -12,7 +12,6 @@
 
         [self setWantsLayer:YES];
         [self.layer setBackgroundColor:[kColorBlur CGColor]];
-        [self.layer setBackgroundColor:[[NSColor purpleColor] CGColor]];
 
         [self setAutoresizingMask:NSViewWidthSizable | NSViewHeightSizable];
 

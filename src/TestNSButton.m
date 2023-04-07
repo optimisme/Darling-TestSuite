@@ -243,7 +243,6 @@
 }
 
 - (void)radioButtonSelected:(NSButton *)sender {
-
 // TODO : Does not work on Darling
 /*
 

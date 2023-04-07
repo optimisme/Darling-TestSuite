@@ -8,7 +8,7 @@
     self = [super initWithFrame:frameRect];
     if (self) {
         [self setWantsLayer:YES];
-        [self.layer setBackgroundColor:[[NSColor redColor] CGColor]];
+        //[self.layer setBackgroundColor:[[NSColor redColor] CGColor]];
 
         // Add shadow
         [self setWantsLayer:YES];

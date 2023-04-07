@@ -12,7 +12,7 @@
     if (self) {
         CGFloat sideWidth = 200;
 
-        [self.layer setBackgroundColor:[[NSColor blackColor] CGColor]];
+        //[self.layer setBackgroundColor:[[NSColor blackColor] CGColor]];
 
         [self setWantsLayer:YES];
         [self setAutoresizingMask: NSViewWidthSizable | NSViewHeightSizable];

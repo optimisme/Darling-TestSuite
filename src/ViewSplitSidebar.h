@@ -5,7 +5,6 @@
 #import "ElementScroll.h"
 #import "ElementSidebarButton.h"
 
-//#define kSidebarTitles @[@"Label", @"Image"]
 #define kSidebarTitles @[@"NSTextField", @"NSButton", @"NSImageView"]
 #define kButtonMargin 10.0
 #define kButtonHeight 30.0
