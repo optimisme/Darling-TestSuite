@@ -2,9 +2,9 @@
 
 Darling-TestSuite is an application to check the functionality of some AppKit components in Darling HQ.
 
-The left column is rendered using the application's graphics engine, the right column shows a screenshot taken by OSX itself. 
+The left column is rendered using the application's graphics engine, the right column shows a screenshot taken by OSX. 
 
-In the code itself there are TODOs with code snippets that work on OSX but break the Darling application.
+In the code there are TODOs with code snippets that work on OSX but break the Darling application.
 
 ## How to run
 
